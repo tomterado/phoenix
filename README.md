@@ -21,6 +21,14 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `yarn build`
 
+
+To Dev
+- Go into Chrome extensions
+- Dev Mode
+- Load the Build File. Make sure it has the icon images (32,48,128 etc)
+- React app should app on the board. 
+- Yarn Build again when you need to test again (Yes inefficient)
+
 Links I have used / accessed
 
 https://dev.to/paulasantamaria/chrome-extensions-local-storage-1b34
