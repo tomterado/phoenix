@@ -11,8 +11,10 @@ chrome.tabs.onActivated.addListener(tab => {
             title: 'Save NFT',
             onclick: function (e) {
                 chrome.runtime.sendMessage({ message: "image added" })
+                
                 //dummy IPFS imageSource
                 chrome.storage.local.set({ "img": "https://ipfs.fleek.co/ipfs/bafybeiebjtasvpvbwj47ewcdufumucuqqgu6crdljyjtygxlvnxsp7kri4" })
+                
                 //test getting the clicked element with a doc getElements
                 // console.log('tag', document.getElementsByTagName('img'));
         }

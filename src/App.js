@@ -48,11 +48,11 @@ function App() {
 
   const mainContainer = () => {
 
-    if (chrome && chrome.runtime.message === "image added") {
-      chrome.storage.local.get("image", value => {
-        console.log(value);
-      })
-    }
+    // if (chrome && chrome.runtime.message === "image added") {
+    //   chrome.storage.local.get("image", value => {
+    //     console.log(value);
+    //   })
+    // }
 
     return (
       <div className="galleryContainer">
