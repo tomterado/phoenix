@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ext-container {
+  min-height: 500px;
+  width: 300px;
+  padding: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid grey;
+}
+
+.addToFavorite {
+  height: 140px;
+  width: 110px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+  border: 1px dotted grey;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.galleryContainer {
+  /* padding-left: 12px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.addToFavText {
+  font-size: small;
+  color: grey;
+  margin: 0px;
+}
+
+.headingNavTitleContainer {
+  /* padding-left: 12px; */
+  margin-top: 8;
+  height: 80;  
+  display: flex;
+  flex-direction: column;
+}
+
+.headingNavTitle {
+  color: black;
+  font-size: 24;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+.headingNavDescription {
+  color: grey;
+  font-size: 12;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+
+.headingContainerRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.placeholderCircle {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background-color: #efefef;
+}
+
+.placeholderCircle2 {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background-color: #efefef;
+  margin-right: 8px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
